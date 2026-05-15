@@ -9,6 +9,26 @@ The system analyzes batsman vs bowler matchups across different match phases and
 It also includes matchup simulation and visual insights to support cricket strategy decisions.
 
 ---
+##  Why This Project?
+
+This project was built to move beyond traditional dashboards and create a cricket decision intelligence system capable of supporting tactical bowling decisions using historical IPL data.
+
+
+##  Current Status
+
+This is Prototype v1 of the IPL Strategy Intelligence Engine.
+
+Current capabilities:
+- batsman-bowler matchup analysis
+- phase-wise recommendations
+- strike-rate intelligence
+- simulation support
+
+Planned upgrades:
+- advanced simulation engine
+- newer IPL seasons
+- predictive analytics
+- improved UI/UX
 
 ##  Features
 

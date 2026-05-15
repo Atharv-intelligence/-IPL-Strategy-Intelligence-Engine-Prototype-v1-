@@ -2,75 +2,151 @@
 
 ##  Overview
 
-This project is a prototype IPL decision intelligence system built using historical IPL ball-by-ball data.
+IPL Strategy Intelligence Engine is a prototype cricket decision intelligence system built using historical IPL ball-by-ball data.
 
-The system analyzes batsman vs bowler matchups across different match phases and recommends optimal bowling strategies using strike-rate and wicket-based analytics.
+The project analyzes batsman vs bowler matchups across different match phases and recommends tactical bowling strategies using strike-rate and wicket-based analytics.
 
-It also includes matchup simulation and visual insights to support cricket strategy decisions.
+It also includes matchup simulation and visual insights to support smarter cricket decision-making.
 
 ---
+
 ##  Why This Project?
 
-This project was built to move beyond traditional dashboards and create a cricket decision intelligence system capable of supporting tactical bowling decisions using historical IPL data.
+Most beginner cricket analytics projects focus only on dashboards or basic statistics.
 
+This project was built to go beyond traditional visualization and create a system that can assist in actual tactical decisions such as:
+
+* Which bowler should be used against a batsman?
+* Which matchup is risky?
+* How does performance change across match phases?
+* Which bowlers consistently control scoring?
+
+The goal was to transform raw IPL data into actionable cricket intelligence.
+
+---
 
 ##  Current Status
 
-This is Prototype v1 of the IPL Strategy Intelligence Engine.
+This is **Prototype v1** of the IPL Strategy Intelligence Engine.
 
-Current capabilities:
-- batsman-bowler matchup analysis
-- phase-wise recommendations
-- strike-rate intelligence
-- simulation support
+###  Current Capabilities
 
-Planned upgrades:
-- advanced simulation engine
-- newer IPL seasons
-- predictive analytics
-- improved UI/UX
+* Batsman vs Bowler matchup analysis
+* Phase-wise strategy recommendations
+* Strike-rate intelligence
+* Wicket-based analysis
+* Matchup simulation support
+* Interactive Streamlit interface
+* Visual analytics graphs
 
-##  Features
+###  Planned Future Upgrades
 
-- Batsman vs Bowler matchup analysis
-- Phase-wise strategy recommendations
-- Best bowlers to use
-- Bowlers to avoid
-- Strike rate comparison
-- Matchup simulation engine
-- Interactive Streamlit interface
-- Visual analytics graphs
+* Advanced simulation engine
+* Newer IPL seasons integration
+* Predictive analytics
+* Improved UI/UX
+* Intelligence scoring system
+* Live data integration
+* Match win probability logic
 
 ---
-## Project Screenshots
 
-### Homepage
+## Features
+
+*  Batsman vs Bowler matchup analytics
+*  Tactical bowling recommendations
+*  Strike-rate based intelligence
+*  Best bowlers to use
+*  Bowlers to avoid
+*  Phase-wise analysis (Powerplay, Middle, Death)
+*  Matchup simulation engine
+*  Visual analytics and comparison graphs
+*  Interactive Streamlit application
+
+---
+
+##  Project Screenshots
+
+###  Homepage
 
 ![Homepage](screenshots/homepage.png)
 
 ---
 
-###  Strategy Recommendation & Analytics
+### 📊 Strategy Recommendation & Analytics
 
 ![Strategy Analysis](screenshots/strategy-analysis.png)
 
-## Tech Stack
+---
 
-- Python
-- Pandas
-- Streamlit
-- Matplotlib
-- GitHub
+## ⚙️ Tech Stack
+
+### Core Technologies
+
+* Python
+* Pandas
+* Streamlit
+* Matplotlib
+
+### Development Tools
+
+* GitHub
+* Jupyter Notebook
+* MacOS Terminal
 
 ---
 
-## Run Locally
+##  Project Structure
 
-Open terminal and run:
+```text
+IPL-Strategy-Intelligence-Engine-Prototype-v1/
+│
+├── app.py
+├── data/
+│   └── deliveries (2).csv
+├── screenshots/
+│   ├── homepage.png
+│   └── strategy-analysis.png
+├── README.md
+```
+
+---
+
+##  Run Locally
+
+Run the Streamlit application using:
 
 ```bash
-cd ~/Desktop/cricket-intelligence-system
 python3 -m streamlit run app.py
+```
 
------
+After running the command, open the localhost URL shown in terminal.
 
+---
+
+## Key Concepts Used
+
+* Data Analysis
+* Feature Engineering
+* Matchup Analytics
+* Strike Rate Intelligence
+* Tactical Decision Support
+* Data Visualization
+* Interactive Web App Development
+
+---
+
+## Future Vision
+
+The long-term vision for this project is to evolve it into a more advanced cricket intelligence platform capable of:
+
+* deeper tactical insights
+* predictive matchup modeling
+* real-time analytics
+* richer visual dashboards
+* advanced simulation systems
+
+---
+
+
+## Prototype v1 — Built as part of a continuous learning and product-building journey.

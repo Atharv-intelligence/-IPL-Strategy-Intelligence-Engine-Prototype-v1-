@@ -22,6 +22,17 @@ It also includes matchup simulation and visual insights to support cricket strat
 - Visual analytics graphs
 
 ---
+## Project Screenshots
+
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+---
+
+###  Strategy Recommendation & Analytics
+
+![Strategy Analysis](screenshots/strategy-analysis.png)
 
 ## Tech Stack
 

@@ -79,6 +79,10 @@ This is **Prototype v1** of the IPL Strategy Intelligence Engine.
 
 ---
 
+### Match simulation 
+
+![ Match simulation](.png)
+
 ## ⚙️ Tech Stack
 
 ### Core Technologies

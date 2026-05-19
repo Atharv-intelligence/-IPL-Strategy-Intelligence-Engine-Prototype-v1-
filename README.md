@@ -82,7 +82,7 @@ This is **Prototype v1** of the IPL Strategy Intelligence Engine.
 ### Match simulation 
 
 
-![Match Simulation](screenshots/strategy-analysis.png)
+![Match Simulation](screenshots/p4v1matchsimilution.png)
 
 
 ----

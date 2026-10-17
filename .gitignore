@@ -1,0 +1,18 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local operating-system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local databases and notebook checkpoints
+*.db
+.ipynb_checkpoints/
